@@ -1,0 +1,115 @@
+h1 {
+    font-family: "Arial Black", Gadget, sans-serif;
+    font-size: 20px;
+    letter-spacing: -0.8px;
+    word-spacing: 4.4px;
+    color: #000000;
+    font-weight: 700;
+    text-decoration: none solid rgb(68, 68, 68);
+    font-style: italic;
+    font-variant: small-caps;
+    text-transform: none;
+}
+h2{
+    font-family: "Arial Black", Gadget, sans-serif;
+    font-size: 20px;
+    letter-spacing: -0.8px;
+    word-spacing: 4.4px;
+    color: #000000;
+    font-weight: 700;
+    text-decoration: none solid rgb(68, 68, 68);
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+}
+body{
+    font-family: "Arial Black", Gadget, sans-serif;
+    font-size: 15px;
+    letter-spacing: 0.2px;
+    word-spacing: -0.6px;
+    color: #000000;
+    font-weight: 400;
+    text-decoration: none solid rgb(68, 68, 68);
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+}
+#sideBar{
+    display: inline-block;
+    top: 20%;
+    left: 0%;
+    width: 19.893%;
+    padding: 10px;
+    max-width: 100%;
+    max-height: 100%;
+    border-style: outset; 
+}
+#avatar{
+    width: 72.75%;
+    height: 72.75%;
+}
+#avatarImg{
+    display: block;
+    top: 10px;
+    padding: 10px;
+}
+#formacao{
+    display: block;
+}
+#bigBody{
+    display: inline-block;
+    border-style: outset;
+    right: 25%;
+    left: 0%;
+}
+#dadosPessoais{
+    display: inline-block;
+    top: 10px;
+    padding: 10px;
+}
+#hobbies{
+    display: inline-block;
+    top: 10px;
+    padding: 10px;
+}
+#curriculumProficional{
+    display: inline-block;
+    top: 10px;
+    padding: 10px;
+}
+#projetos{
+    display: inline-block;
+    top: 10px;
+    padding: 10px;
+}
+#familia{
+    display: inline;
+}
+#pai{
+    display: inline;
+
+}
+#mae{
+    display: inline;
+}
+#menu {
+    list-style-type: none;
+    padding: 0;
+    width: 100%;
+    }  
+#menu li {
+    display: inline-block;
+    width: 20%;
+    text-align: center;
+    background-color: #CCC;
+} 
+#menu a {
+    text-decoration: none;
+    color: #000;
+}  
+#menu a:hover::before {
+    content: ">> ";
+}
+#menu a:hover::after {
+    content: " <<";
+}
